@@ -44,7 +44,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 p-4 rounded-lg borderBlack  outline-none dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all"
+          className="h-14 p-4 rounded-lg borderBlack  outline-none dark:bg-white dark:bg-opacity-90 dark:focus:bg-opacity-100 transition-all"
           type="email"
           name="senderEmail"
           required
@@ -55,7 +55,7 @@ export default function Contact() {
           name="message"
           required
           maxLength={5000}
-          className="h-52 my-3 rounded-lg borderBlack p-4  outline-none dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all d"
+          className="h-52 my-3 rounded-lg borderBlack p-4  outline-none dark:bg-white dark:bg-opacity-90 dark:focus:bg-opacity-100 transition-all d"
           placeholder="Your massage"
         />
         <SubmitBtn />
