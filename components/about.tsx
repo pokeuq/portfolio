@@ -21,7 +21,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
 
-      <p className="mb-5">
+      <p className="mb-5 max-[640px]:text-justify">
         I am a student. I have a <span className="font-medium">passion</span>{" "}
         for programming. I signed up for a basic programming course and studied{" "}
         <span className="font-medium">web development</span> on my own. My
@@ -38,7 +38,7 @@ export default function About() {
         developer.
       </p>
 
-      <p>
+      <p className="max-[640px]:text-justify">
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and reading manga. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
