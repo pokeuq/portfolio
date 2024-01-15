@@ -83,10 +83,10 @@ export const projectsData = [
   },
   {
     title: "MERN Auth",
-    description: "Full-stack web application built with the MERN stack. Allow users to sign up, log in, and log out, and provides access to protected routes",
+    description: "Allow users to sign up, log in, and log out, and provides access to protected routes. ( turn ON VPN if not availiable or try againnot availiable)",
     tags: ["React", "MongoDB", "Node.js", "Express", "TailwindCSS", "Redux Toolkit"],
     imageUrl: auth,
-    link: 'https://auth-4dqf.onrender.com/',
+    link: 'https://auth-4dqf.onrender.com',
   },
   {
     title: "Todo",
