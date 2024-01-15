@@ -8,6 +8,8 @@ import reactPizza from "@/public/react-pizza.jpg";
 import game from "@/public/2048.jpg";
 import weather from "@/public/weather.jpg";
 import todo from "@/public/todo.jpg";
+import auth from '@/public/auth.jpg'
+import projects from '@/public/projects.jpg'
 
 export const links = [
   {
@@ -75,9 +77,16 @@ export const projectsData = [
   {
     title: "React Pizza",
     description: "You can choose the desired pizza and even add it to the cart",
-    tags: ["React", "Redux Toolkit", "Typescript", "SCSS"],
+    tags: ["React", "Typescript", "SCSS", "Redux Toolkit"],
     imageUrl: reactPizza,
     link: 'https://pokeuq-react-pizza.netlify.app/',
+  },
+  {
+    title: "MERN Auth",
+    description: "Full-stack web application built with the MERN stack. Allow users to sign up, log in, and log out, and provides access to protected routes",
+    tags: ["React", "MongoDB", "Node.js", "Express", "TailwindCSS", "Redux Toolkit"],
+    imageUrl: auth,
+    link: 'https://auth-4dqf.onrender.com/',
   },
   {
     title: "Todo",
@@ -88,7 +97,7 @@ export const projectsData = [
   },
   {
     title: "Weather",
-    description: "Show the weather in the specified city.",
+    description: "Show the weather in the specified city",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: weather,
     link: 'https://pokeuq.github.io/weather/',
@@ -101,6 +110,14 @@ export const projectsData = [
     imageUrl: game,
     link: 'https://pokeuq.github.io/2048/',
   },
+  {
+    title: "Other projects",
+    description:
+      "The rest of my projects, mostly based on animations",
+    tags: ["Javascript", "HTML", "CSS"],
+    imageUrl: projects,
+    link: 'https://pokeuq.github.io/projects/',
+  },
 ] as const;
 
 export const skillsData = [
@@ -111,8 +128,9 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Jest.js",
   "Git",
-  "Tailwind",
+  "TailwindCSS",
   "MongoDB",
   "Redux Toolkit",
   "Express",
