@@ -93,7 +93,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/resume2024.pdf"
+          href="/reesume.pdf"
           download
           className="group bg-white px-7 py-3 max-[640px]:w-full flex items-center justify-center gap-2  opacity-80 hover:opacity-100 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/70 dark:border-white/10"
         >
