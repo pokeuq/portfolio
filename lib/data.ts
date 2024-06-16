@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { PiMedal } from "react-icons/pi";
 import { LuAward } from "react-icons/lu";
 import reactPizza from "@/public/react-pizza.jpg";
+import vueSneakers from "@/public/vue-sneakers.png";
 import game from "@/public/2048.jpg";
 import weather from "@/public/weather.jpg";
 import todo from "@/public/todo.jpg";
@@ -82,6 +83,13 @@ export const projectsData = [
     link: 'https://pokeuq-react-pizza.netlify.app/',
   },
   {
+    title: "Vue Sneakers",
+    description: "You can add sneakers to bookmarks or to the cart",
+    tags: ["Vue", "Tailwind"],
+    imageUrl: vueSneakers,
+    link: "https://vue-sneakers-seven-sable.vercel.app/",
+  },
+  {
     title: "MERN Auth",
     description: "Allow users to sign up, log in, and log out, and provides access to protected routes. (turn on VPN or try again if not availiable)",
     tags: ["React", "MongoDB", "Node.js", "Express", "TailwindCSS", "Redux Toolkit"],
@@ -125,6 +133,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Vue",
   "React",
   "Next.js",
   "Node.js",
