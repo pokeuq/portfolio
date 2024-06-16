@@ -85,7 +85,7 @@ export const projectsData = [
   {
     title: "Vue Sneakers",
     description: "You can add sneakers to bookmarks or to the cart",
-    tags: ["Vue", "Tailwind"],
+    tags: ["Vue", "TailwindCSS"],
     imageUrl: vueSneakers,
     link: "https://vue-sneakers-seven-sable.vercel.app/",
   },
