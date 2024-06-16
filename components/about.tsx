@@ -32,7 +32,7 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . Im also have a good knowledge about TypeScript and Vue well. Always looking to learn
+        . Im also have a good knowledge about TypeScript and Vue. Always looking to learn
         new technologies. Currently want to find a{" "}
         <span className="font-medium">full-time job</span> as a frontend
         developer.
