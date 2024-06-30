@@ -11,6 +11,7 @@ import weather from "@/public/weather.jpg";
 import todo from "@/public/todo.jpg";
 import auth from '@/public/auth.jpg'
 import projects from '@/public/projects.jpg'
+import breadit from '@/public/breadit.png'
 
 export const links = [
   {
@@ -75,6 +76,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Breadit",
+    description: "Reddit clone. Create community and subscribe to others",
+    tags: ["Next.js", "Typescript", "TailwindCSS"],
+    imageUrl: breadit,
+    link: 'https://breadit-three-self.vercel.app/',
+  },
   {
     title: "React Pizza",
     description: "You can choose the desired pizza and even add it to the cart",
