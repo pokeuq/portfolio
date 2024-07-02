@@ -67,8 +67,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello</span>, I'm Bezhan.{" "}
         <span className="font-bold">Frontend developer</span> with{" "}
-        <span className="font-bold">1.5 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>.
+        <span className="font-bold">+1 years</span> of experience.
       </motion.h1>
 
       <motion.div
@@ -91,14 +90,14 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1.5 transition" />
         </Link>
 
-        <a
+{/*         <a
           href="/reesume.pdf"
           download
           className="group bg-white px-7 py-3 max-[640px]:w-full flex items-center justify-center gap-2  opacity-80 hover:opacity-100 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/70 dark:border-white/10"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
 
         <div className="flex gap-4">
           <a
