@@ -79,7 +79,7 @@ export const projectsData = [
   {
     title: "Breadit",
     description: "Reddit clone. Create community and subscribe to others",
-    tags: ["Next.js", "Typescript", "TailwindCSS"],
+    tags: ["Next.js", "Typescript", "PostgreSQL", "TailwindCSS"],
     imageUrl: breadit,
     link: 'https://breadit-three-self.vercel.app/',
   },
@@ -149,6 +149,7 @@ export const skillsData = [
   "Git",
   "TailwindCSS",
   "MongoDB",
+  "PostgreSQL",
   "Redux Toolkit",
   "Express",
   "Framer Motion",
