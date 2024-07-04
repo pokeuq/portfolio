@@ -21,7 +21,7 @@ export default function Contact() {
       transition={{ delay: 0.175 }}
       viewport={{ once: true }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Свяжитесь со мной</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Пожалуйста, свяжитесь со мной напрямую по адресу{" "}
         <a className="font-bold" href="mailto:beerubk74@gmail.com">
