@@ -22,7 +22,7 @@ export default function Contact() {
       viewport={{ once: true }}
     >
       <SectionHeading>Свяжитесь со мной</SectionHeading>
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="text-gray-700 dark:text-white/80">
         Пожалуйста, свяжитесь со мной напрямую по адресу{" "}
         <a className="font-bold" href="mailto:beerubk74@gmail.com">
           beerubk74@gmail.com
