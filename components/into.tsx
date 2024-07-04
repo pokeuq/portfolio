@@ -86,7 +86,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Cвяжитесь со мной{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1.5 transition" />
         </Link>
 
