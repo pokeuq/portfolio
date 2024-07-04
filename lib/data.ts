@@ -127,7 +127,7 @@ export const projectsData = [
     link: 'https://pokeuq.github.io/2048/',
   },
   {
-    title: "Other projects",
+    title: "Остальные проекты",
     description:
       "Остальные мои проекты, в основном, основаные на анимации",
     tags: ["Javascript", "HTML", "CSS"],
