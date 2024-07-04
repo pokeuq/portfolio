@@ -22,30 +22,14 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-5 max-[640px]:text-justify">
-        I am a student. I have a <span className="font-medium">passion</span>{" "}
-        for programming. I signed up for a basic programming course and studied{" "}
-        <span className="font-medium">web development</span> on my own. My
-        favorite part of programming is the{" "}
-        <span className="italic">problem-solving</span> aspect. I love the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . Im also have a good knowledge about TypeScript and Vue. Always looking to learn
-        new technologies. Currently want to find a{" "}
-        <span className="font-medium">full-time job</span> as a frontend
-        developer.
-      </p>
+      Студент. У меня есть <span className="font-medium">страсть</span> к программированию. Я записался на базовый курс программирования и самостоятельно изучал <span className="font-medium">веб-разработку</span>. Мне особенно нравится аспект <span className="italic">решения проблем</span>. Нравится ощущение, когда наконец-то удается найти решение проблемы. Мой основной стек технологий включает в себя <span className="font-medium">React, Next.js, Node.js и MongoDB</span>. Я также хорошо разбираюсь в TypeScript и Vue. Всегда стремлюсь узнавать новые технологии. В настоящее время я хочу найти <span className="font-medium">полноразмерную работу</span> в качестве frontend-разработчика.
+</p>
+
 
       <p className="max-[640px]:text-justify">
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and reading manga. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">psychology as well as drawing</span>. Also
-        learning how to to assemble a rubik's cube.
-      </p>
+  <span className="italic">Когда я не программироваю</span>, я люблю играть в видеоигры, смотреть фильмы и читать мангу. Я также увлекаюсь <span className="font-medium">изучением новых штук</span>. В данный момент я изучаю <span className="font-medium">психологию, а также рисование</span>.
+</p>
+
     </motion.section>
   );
 }
