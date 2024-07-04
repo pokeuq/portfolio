@@ -19,7 +19,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Обо мне</SectionHeading>
 
       <p className="mb-5 max-[640px]:text-justify">
       Студент. У меня есть <span className="font-medium">страсть</span> к программированию. Я записался на базовый курс программирования и самостоятельно изучал <span className="font-medium">веб-разработку</span>. Мне особенно нравится аспект <span className="italic">решения проблем</span>. Нравится ощущение, когда наконец-то удается найти решение проблемы. Мой основной стек технологий включает в себя <span className="font-medium">React, Next.js, Node.js и MongoDB</span>. Я также хорошо разбираюсь в TypeScript и Vue. Всегда стремлюсь узнавать новые технологии. В настоящее время я хочу найти <span className="font-medium">полноразмерную работу</span> в качестве frontend-разработчика.
