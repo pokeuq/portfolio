@@ -15,105 +15,105 @@ import breadit from '@/public/breadit.png'
 
 export const links = [
   {
-    name: "Home",
+    name: "Главная",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Обо мне",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Проекты",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Навыки",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Опыт",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Контакты",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated course",
-    location: "Moscow, RU",
+    title: "Student-pass",
+    location: "Уфа",
     description:
-      "I graduated after 6 months of studying the base of programming. Gained the foundational knowledge in programming that is essential for further learning and development in this field.",
+      'Система Повышения Вовлеченности "Student-pass" это веб-портал, на котором собраны все студенты вуза (на ранних этапах одного из факультетов вуза) в целях получения отличительных знаков и соревнования между собой',
     icon: React.createElement(LuGraduationCap),
-    date: "2022 June",
+    date: "2020 Ноябрь",
   },
   {
-    title: "Internship",
-    location: "Ufa, RU",
+    title: "Оконченный курс",
+    location: "Москва",
     description:
-      "During my frontend internship, I gained valuable experience in frontend development, learned about new technologies and approaches, and expanded my network.",
+      "Я закончил учебу после 6 месяцев изучения основ программирования. Получил базовые знания в области программирования, которые необходимы для дальнейшего обучения и развития в этой области.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 Июнь",
+  },
+  {
+    title: "Стажировка",
+    location: "Уфа",
+    description:
+      "Во время стажировки я приобрел ценный опыт в разработке frontend, узнал о новых технологиях и подходах и расширил свой нетворкинг.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 May",
+    date: "2022 Сентябрь",
   },
   {
     title: "UfaHack2023",
-    location: "Ufa, RU",
+    location: "Уфа",
     description:
-      "Took 3rd place with a new team at the hackaton for the development of a web application. We competed for the victory with the seniors of our university. Organizers and partners: UUST, Tinkoff Education, 418team.",
+      "Заняли 3-е место с новой командой на хакатоне по разработке веб-приложения, соревновнуясь за победу со старшеклассниками нашего университета. Организаторы и партнеры: UUST, Tinkoff Education, 418team.",
     icon: React.createElement(LuAward),
-    date: "2023 November",
-  },
-  {
-    title: "Frontend Developer",
-    location: "Ufa, RU",
-    description:
-      "I'm now a frontend developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2023 - Present",
+    date: "2023 Ноябрь",
   },
 ] as const;
 
 export const projectsData = [
   {
     title: "Breadit",
-    description: "Reddit clone. Create community and subscribe to others",
+    description: "Клон Reddit. Создавайте сообщества и подписывайтесь на других пользователей",
     tags: ["Next.js", "Typescript", "PostgreSQL", "TailwindCSS"],
     imageUrl: breadit,
     link: 'https://breadit-three-self.vercel.app/',
   },
   {
     title: "React Pizza",
-    description: "You can choose the desired pizza and even add it to the cart",
+    description: "Вы можете выбрать желаемую пиццу и даже добавить ее в корзину",
     tags: ["React", "Typescript", "SCSS", "Redux Toolkit"],
     imageUrl: reactPizza,
     link: 'https://pokeuq-react-pizza.netlify.app/',
   },
   {
     title: "Vue Sneakers",
-    description: "You can add sneakers to bookmarks or to the cart",
+    description: "Реализован фукнционал закладок и покупки с корзины",
     tags: ["Vue", "TailwindCSS"],
     imageUrl: vueSneakers,
     link: "https://vue-sneakers-seven-sable.vercel.app/",
   },
   {
     title: "MERN Auth",
-    description: "Allow users to sign up, log in, and log out, and provides access to protected routes. (turn on VPN or try again if not availiable)",
+    description: "Позволяет пользователям регистрироваться, входить в систему и выходить из системы, а также предоставляет доступ к защищенным маршрутам.",
     tags: ["React", "MongoDB", "Node.js", "Express", "TailwindCSS", "Redux Toolkit"],
     imageUrl: auth,
     link: 'https://auth-4dqf.onrender.com',
   },
   {
     title: "Todo",
-    description: "To-do with pure Javascript / CRUD",
+    description: "To-do на чистом Javascript (CRUD)",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: todo,
     link: 'https://pokeuq.github.io/todo/',
   },
   {
     title: "Weather",
-    description: "Show the weather in the specified city",
+    description: "Показывает погоду в указанном городе",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: weather,
     link: 'https://pokeuq.github.io/weather/',
@@ -121,7 +121,7 @@ export const projectsData = [
   {
     title: "2048",
     description:
-      "2048 game with a ton of logic.. 🤕 (*only available on PC)",
+      "2048 игра  (*доступно только на компьютере)",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: game,
     link: 'https://pokeuq.github.io/2048/',
@@ -129,7 +129,7 @@ export const projectsData = [
   {
     title: "Other projects",
     description:
-      "The rest of my projects, mostly based on animations",
+      "Остальные мои проекты, в основном, основаные на анимации",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: projects,
     link: 'https://pokeuq.github.io/projects/',
