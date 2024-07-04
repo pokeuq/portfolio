@@ -15,27 +15,27 @@ import breadit from '@/public/breadit.png'
 
 export const links = [
   {
-    name: "Главная",
+    name: "Home",
     hash: "#home",
   },
   {
-    name: "Обо мне",
+    name: "About",
     hash: "#about",
   },
   {
-    name: "Проекты",
+    name: "Projects",
     hash: "#projects",
   },
   {
-    name: "Навыки",
+    name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Опыт",
+    name: "Experience",
     hash: "#experience",
   },
   {
-    name: "Контакты",
+    name: "Contact",
     hash: "#contact",
   },
 ] as const;
