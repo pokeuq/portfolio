@@ -23,11 +23,11 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        Пожалуйста, свяжитесь со мной напрямую по адресу{" "}
         <a className="font-bold" href="mailto:beerubk74@gmail.com">
           beerubk74@gmail.com
         </a>{" "}
-        or through this form
+        или через эту форму
       </p>
 
       <form
@@ -40,7 +40,7 @@ export default function Contact() {
             return
           }
 
-          toast.success("Email sent successfully")
+          toast.success("Электронное письмо успешно отправлено")
         }}
       >
         <input
@@ -49,14 +49,14 @@ export default function Contact() {
           name="senderEmail"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="Почта"
         />
         <textarea
           name="message"
           required
           maxLength={5000}
           className="h-52 my-3 rounded-lg borderBlack p-4  outline-none dark:bg-white dark:bg-opacity-90 dark:focus:bg-opacity-100 transition-all d"
-          placeholder="Your massage"
+          placeholder="Сообщение"
         />
         <SubmitBtn />
       </form>
