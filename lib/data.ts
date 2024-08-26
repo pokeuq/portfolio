@@ -63,7 +63,7 @@ export const experiencesData = [
     description:
       "Во время работы я приобрел ценный опыт в разработке frontend, узнал о новых технологиях и подходах и расширил свой нетворкинг.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 Сентябрь - Март 2023",
+    date: "2022 Сентябрь",
   },
   {
     title: "UfaHack2023",
@@ -79,7 +79,7 @@ export const experiencesData = [
     description:
       "Улучшил производительность веб-приложений, освоил новые инструменты и оптимизировал пользовательский опыт.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 Март - Август 2024",
+    date: "2024 Март",
   },
 ] as const;
 
