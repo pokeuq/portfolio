@@ -74,12 +74,12 @@ export const experiencesData = [
     date: "2023 Ноябрь",
   },
    {
-    title: "Ozon",
+    title: "MTS Digital",
     location: "Москва",
     description:
       "Улучшил производительность веб-приложений, освоил новые инструменты и оптимизировал пользовательский опыт.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 Март",
+    date: "2024 Сентябрь",
   },
 ] as const;
 
